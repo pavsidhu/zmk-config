@@ -26,7 +26,7 @@
 &kp LSHFT &kp A  &kp S  &kp D     &kp F    &kp G                         &kp H    &kp J    &kp K     &kp L   &kp SEMI &kp SQT
 &kp GRAVE &kp Z  &kp X  &kp C     &kp V    &kp B     &kp LBKT   &kp RBKT &kp N    &kp M    &kp COMMA &kp DOT &kp FSLH &kp NON_US_BSLH
                         &kp LCTRL &kp LALT &kp LGUI  &kp SPACE  &kp RET  &kp BSPC &mo 1    &kp LGUI
-			>;`
+			>;
 		};
 
 		raise_layer {
