@@ -27,7 +27,7 @@
 &kp LSHFT       &kp Z  &kp X  &kp C     &kp V    &kp B     &kp LBKT   &kp RBKT &kp N    &kp M    &kp COMMA &kp DOT &kp FSLH &kp BSLH
                        &kp LCTRL &kp LALT &kp LGUI  &kp SPACE  &kp RET  &kp BSPC &mo 1    &kp LGUI
 			>;
-		};[[]()[]()[]()[]()][(){}_{}_{}_$$$$$$$]
+		};
 
 		raise_layer {
 // ------------------------------------------------------------------------------------------------------------
