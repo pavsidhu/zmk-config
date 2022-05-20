@@ -33,15 +33,15 @@
 // ------------------------------------------------------------------------------------------------------------
 // | BTCLR | BT1 | BT2 | BT3 |  BT4 |  BT5 |                   | F11  |  F12  |  F8   |  F7  |  F9   |       |
 // |   ~   |  !  |  @  |  £  |   $  |   %  |                   | '^'  |   &   |   ^   |  *   |       |       |
-// |  '|'  |  [  |  ]  |  (  |   )  |   +  |                   |   ?  |   <-  |   v   |  ->  |   :   |   "   |
-// |   `   |  {  |  }  |  -  |   _  |   =  |        |  |       |   #  |   <   |   >   |      |       |       |
+// |  '|'  |  {  |  }  |  (  |   )  |   =  |                   |   ?  |   <-  |   v   |  ->  |   :   |   "   |
+// |   `   |  [  |  ]  |  -  |   _  |   +  |        |  |       |      |   <   |   >   |      |       |       |
 //                     |     |      |      |        |  |       |      |       |       |
 			bindings = <
-&bt BT_CLR  &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3  &bt BT_SEL 4                &kp F11   &kp F12   &kp F8    &kp F7    &kp F9    &trans
-&kp TILDE   &kp EXCL     &kp AT       &kp DLLR     &kp DLLR      &kp PRCNT                   &kp CARET &kp AMPS  &kp UP    &kp STAR  &trans    &trans
-&kp PIPE    &kp LBKT     &kp RBKT     &kp LPAR     &kp RPAR      &kp PLUS                    &kp QMARK &kp LEFT  &kp DOWN  &kp RIGHT &kp COLON &kp DQT
-&kp GRAVE   &kp LBRC     &kp RBRC     &kp MINUS    &kp UNDER     &kp EQUAL     &trans &trans &kp HASH  &kp LT    &kp GT    &trans    &trans    &trans   
-                                      &trans       &trans        &trans        &trans &trans &trans    &mo 0     &trans
+&bt BT_CLR  &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3  &bt BT_SEL 4                &kp F11          &kp F12   &kp F8    &kp F7    &kp F9    &trans
+&kp TILDE   &kp EXCL     &kp AT       &kp HASH     &kp DLLR      &kp PRCNT                   &kp CARET        &kp AMPS  &kp UP    &kp STAR  &trans    &trans
+&kp PIPE    &kp LBRC     &kp RBRC     &kp LPAR     &kp RPAR      &kp EQUAL                   &kp QMARK        &kp LEFT  &kp DOWN  &kp RIGHT &kp COLON &kp DQT
+&kp GRAVE   &kp LBKT     &kp RBKT     &kp MINUS    &kp UNDER     &kp PLUS      &trans &trans &kp NON_US_HASH  &kp LT    &kp GT    &trans    &trans    &trans   
+                                      &trans       &trans        &trans        &trans &trans &trans           &mo 0     &trans
 			>;
 		};
 	};
